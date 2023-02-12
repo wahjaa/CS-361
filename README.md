@@ -1,6 +1,6 @@
 # CS-361
 1. To request data from the microservice, your program must write a numeric value into the recipes.txt file. For example, if in your UI, a user requests a recipe with at least 10 grams of protein, write this input "10" to recipes.txt as such: 
-        inp = input() # after user input is prompted
+        inp = input()
         f = open("recipes.txt", "w")  
         f.write(inp)
         
